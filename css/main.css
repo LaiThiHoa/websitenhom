@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:white;
+}
+.team-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-body {
+    padding: 15px;
+}
+.card-title {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+.card-subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 1em;
+}
+.card-description {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 1em;
+}
+.card-contact {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+.card-contact:hover {
+    background: #555;
+}
